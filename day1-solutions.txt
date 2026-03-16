@@ -1,0 +1,315 @@
+BLOCK 1 – APTITUDE (Percentages)
+Question 1
+A number increased by 20% becomes 120.
+Find the original number.
+Solution:
+	Original number=x
+100% is actual
+20% of x=20/100x
+	=1/5x
+Original number+20% of original number=120
+X+1/5x=120
+5x+1x/5=120
+6x/5=120*5
+6x=600
+X=600/6
+X=100
+
+Question 2
+If the price of a laptop increases from ₹50,000 to ₹60,000,
+what is the percentage increase?
+	Original =50,000
+	New=60,000
+	Increase=original/new*100
+		=60,000/50,000*100
+		=6/5*100
+		=600/5
+		=120							
+	Increased %=increase%-actual%
+		=120%-100%
+		=20%
+
+100	50,000
+?	60,000
+We can also use box method
+100	5
+   ?	6
+20	1
+?	6
+
+50,000/60,000
+100/5
+20*6
+120
+120-100
+20
+
+Question 3
+A student scored 72 out of 90 in an exam.
+Find the percentage score.
+	Marks obtained=72
+	Total mark=90
+	Percentage=marks obtained/total mark*100
+		       =72/90*100
+		       =4/5*100
+		       =400/5
+		       =80%
+		We can also use box method
+
+Question 4
+The population of a town increases from 50,000 to 60,000.
+Find the percentage increase.
+(Same as 2nd question)
+Original =50,000
+	New=60,000
+	Increase=original/new*100
+		=60,000/50,000*100
+		=6/5*100
+		=600/5
+		=120							
+	Increased %=increase%-actual%
+		=120%-100%
+		=20%
+Question 4:
+A shirt originally costs ₹800.
+After a 25% discount, what is the final price?
+	Original=800
+	Discount=25%
+	Discount amount=25/100*800
+			   =25*8
+			   =200
+	Final price after discount=original-discount amount
+				 =800-200
+				 =600
+BLOCK 2 – VERBAL  ABILITY
+Reading Passage:
+
+Technology is transforming industries rapidly. Artificial Intelligence,
+Machine Learning, and Automation are reshaping the way companies operate.
+Businesses now depend heavily on data-driven decision making.
+
+1. What is the main idea of the passage?
+	The main idea of the passage is the rapid growth of technology.
+
+2. Which technologies are mentioned in the passage?
+	Technologies mentioned in the passage are:
+		Artificial Intelligence
+		Machine Learning
+		Automation
+
+3. Why are companies relying on data-driven decisions?
+	Companies rely on data-driven decisions because technology provides large amounts of data that helps business make better decisions.
+	
+
+
+Grammar Correction
+
+1.	She don't understand the problem.
+	(she is singular so we need to use does instead of do)
+	She doesn’t understand the problem.
+
+2.	He have completed the task.
+	(he is singular so we need to use has instead of have)
+	He has completed the task.
+
+3.	They was going to the meeting.
+	(they is plural so we need to use were instead of was)
+	They were going to the meeting.
+
+
+BLOCK 3 – COMMUNICATION PRACTICE:
+
+I am Nethra from thalaivasal. At present I am persuing BE Computer Science and Engineering in Muthayammal Engineering College at Rasipuram.I completed my school in Jayam Matric Hr Sec School at samiyarkinaru. I have basic knowledge in java, HTML, CSS and React. I am interested in software development and problem solving. I did a project named Hospital Appointment Booking System using React. The purpose of this project is to reduce the waiting time of the patient in the hospital and helps the doctors to manage their appointments easily. My hobbies are watching cartoons and playing with my neighbourhood kids.
+
+
+BLOCK 4 – PROBLEM SOLVING
+
+Find the missing number in the array
+[1,2,3,4,6,7,8]
+MISSING ELEMENT
+Solution(JAVA)
+
+	import java.util.Scanner
+	public class Main{
+	public static void main(String[]){
+	Scanner sc = new Scanner(System.in);
+	int n=sc.nextInt();
+	int arr[]=new int[n-1];
+	int sum=0;
+	for(int i=0;i<arr.length;i++){
+		arr[i]=sc.nextInt();
+		sum=sum+arr[i];
+	}
+	int total=n*(n+1)/2;
+	int miss=total-sum;
+	System.out.println(miss);
+}
+}
+
+
+N = number of emements
+Arr[]=getting numbers as array
+[n-1]-we use this for array size because one number is missing
+If my input is 7 [1,2,3,4,6,7,8] 1 number is missing we need to find it
+We need to sum the values in array
+
+i arr[i] sum
+0 +  1  =1
+1 +  2	 =3
+3 +  3  =6
+6 +  4  =10
+10+  6  =16
+16+  7  =23
+23+  8  =31
+
+Now sum=31
+Formula=n*(n+1)/2
+      =8*9/2
+      =36
+Missing=total-sum
+	=36-31
+	=5
+5 is the missing number
+
+
+Topic: Arrays
+Problem 1 – Two Sum
+
+Given an array of integers and a target value,
+return the indices of two numbers whose sum equals the target.
+Example
+nums = [2,7,11,15]
+target = 9
+
+TARGET VALUES (2 POINTERS)
+
+	Import java.util.Scanner;
+	public class Main{
+	public static void main(String[]args){
+	Scanner sc  new Scanner(System.in);
+ 	int n=sc.nextInt();
+	int arr[]=new int[n];
+	for(int i=0;i<n;i++){
+		arr[i]=sc.nextInt();
+	}
+	int target=sc.nextInt();
+	int left=0;
+	int right=n-1;
+	while(left<right({
+		if(arr[left]+arr[right]==target)
+		{
+			System.out.println(left+” “+right);
+			break;
+		}
+	if(arr[left]+arr[right]<target){
+		left++;
+	}
+	Else{
+		Right--;
+	}
+}
+}
+
+Int n=number of values
+Arr[]=getting elements as array
+Target=the value that we get while adding two numbers
+Left – start of array
+Right – enf of array
+Example: 2 7 11 15
+	  L      R
+	Target =9
+
+Arr[l]+arr[r]==target
+2+15=17  not equal to target
+17> 9 so r—
+
+2+11=13  not equal to target
+13>9 so r—
+
+2+7=9   is equal to target
+Target found
+
+Time complexity=O(n) – input increase the operation and time taken also increase  (if n=5 , loop runs for 0,1,2,3,4 totally 5 times)
+
+
+Find the maximum element in the array
+[3,8,1,10,4]
+
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+int arr[] = new int[n];
+for(int i = 0; i < n; i++)
+{
+	arr[i] = sc.nextInt();
+}
+int left = 0;
+int right = n - 1;
+int max = arr[0];
+while(left <= right){
+	if(arr[left] > max){
+		max = arr[left];
+}
+	if(arr[right] > max){
+	max = arr[right];
+}
+	left++;
+	right--;
+}
+System.out.println("Maximum element: " + max);
+}
+}
+
+N as number of inputes
+Getting array elements
+Declaring left and right for start and end of array
+Declaring 1 st element(arr[0]) as max to compare with others
+
+N=5
+3 8 1 10 4
+L        R
+
+Left=0
+Right=n-1(5-1)=4
+Left++
+Right--
+0<=4
+True
+	3>3(no)
+	4>3(yes)
+	Max=4
+1<=3
+True
+	8>4(yes)
+	Max=8
+	10>8(yes)
+	Max=10
+2<=2
+True
+	1>10(no)
+	Max=10
+	1>10(no)
+	Max=10
+3<=1
+False
+Loop stops
+
+Maximum Element : 10
+
+
+Query:
+
+CREATE DATABASE CollegeDB;
+USE CollegeDB;
+CREATE TABLE Student (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50)
+);
+INSERT INTO Student VALUES (1, 'Rahul');
+INSERT INTO Student VALUES (2, 'Priya');
+INSERT INTO Student VALUES (3, 'Arun');
+SELECT * FROM Student;
+
+
