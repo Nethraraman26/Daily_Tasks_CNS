@@ -28,12 +28,13 @@ what is the percentage increase?
 	Increased %=increase%-actual%
 		=120%-100%
 		=20%
-
+We can also use box method
 100	50,000
 ?	60,000
-We can also use box method
+
 100	5
-   ?	6
+?	6
+
 20	1
 ?	6
 
@@ -70,7 +71,7 @@ Original =50,000
 	Increased %=increase%-actual%
 		=120%-100%
 		=20%
-Question 4:
+Question 5:
 A shirt originally costs ₹800.
 After a 25% discount, what is the final price?
 	Original=800
@@ -81,6 +82,7 @@ After a 25% discount, what is the final price?
 	Final price after discount=original-discount amount
 				 =800-200
 				 =600
+_____________________________________________________________________________________________________
 BLOCK 2 – VERBAL  ABILITY
 Reading Passage:
 
@@ -100,7 +102,7 @@ Businesses now depend heavily on data-driven decision making.
 3. Why are companies relying on data-driven decisions?
 	Companies rely on data-driven decisions because technology provides large amounts of data that helps business make better decisions.
 	
-
+________________________________________________________________________________________________________
 
 Grammar Correction
 
@@ -116,12 +118,12 @@ Grammar Correction
 	(they is plural so we need to use were instead of was)
 	They were going to the meeting.
 
-
+________________________________________________________________________________________________________
 BLOCK 3 – COMMUNICATION PRACTICE:
 
 I am Nethra from thalaivasal. At present I am persuing BE Computer Science and Engineering in Muthayammal Engineering College at Rasipuram.I completed my school in Jayam Matric Hr Sec School at samiyarkinaru. I have basic knowledge in java, HTML, CSS and React. I am interested in software development and problem solving. I did a project named Hospital Appointment Booking System using React. The purpose of this project is to reduce the waiting time of the patient in the hospital and helps the doctors to manage their appointments easily. My hobbies are watching cartoons and playing with my neighbourhood kids.
 
-
+_____________________________________________________________________________________________________
 BLOCK 4 – PROBLEM SOLVING
 
 Find the missing number in the array
@@ -171,7 +173,7 @@ Missing=total-sum
 	=5
 5 is the missing number
 
-
+_____________________________________________________________________________________________________________
 Topic: Arrays
 Problem 1 – Two Sum
 
@@ -231,7 +233,7 @@ Target found
 
 Time complexity=O(n) – input increase the operation and time taken also increase  (if n=5 , loop runs for 0,1,2,3,4 totally 5 times)
 
-
+_________________________________________________________________________________
 Find the maximum element in the array
 [3,8,1,10,4]
 
@@ -298,7 +300,7 @@ Loop stops
 
 Maximum Element : 10
 
-
+_____________________________________________________________________________________________________
 Query:
 
 CREATE DATABASE CollegeDB;
