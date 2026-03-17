@@ -216,6 +216,99 @@ Reversed number=4321
 
 _______________________________________________________________________________________________________
 
+BLOCK 5 – DATA STRUCTURES & ALGORITHMS
+
+Topic: Arrays
+Problem – Maximum Subarray (Kadane's Algorithm)
+
+Given array:
+[-2,1,-3,4,-1,2,1,-5,4]
+Find the maximum sum of a contiguous subarray.
+Expected Output
+6
+Subarray
+[4,-1,2,1]
+
+	Kadanes algorithm-find the maximum sum of a continuous subarray in a given array.
+	import java.util.Scanner;
+
+	public class Main {
+    		public static void main(String[] args) {
+        	Scanner sc = new Scanner(System.in);
+        	int n = sc.nextInt();
+        	int[] arr = new int[n];
+        	for(int i = 0; i < n; i++) {
+            		arr[i] = sc.nextInt();
+        	}
+        	int maxSum = arr[0];
+        	int currentSum = 0;
+        	for(int i = 0; i < n; i++) {
+            		currentSum = currentSum + arr[i];
+            		if(currentSum > maxSum) {
+                	maxSum = currentSum;
+            	}
+            	if(currentSum < 0) {
+                	currentSum = 0;
+            	}
+        	}
+       	 System.out.println("Maximum Subarray Sum: " + maxSum);
+    	}
+	}
+
+EXPLANATION:
+declaring first element of array as max element.
+currentsum as 0.
+n=9
+[-2,1,-3,4,-1,2,1,-5,4]
+n = 9
+currentSum = 0
+maxSum = -2
+
+i=0; 0<9 (true)
+    0 + (-2) = -2
+    (-2 > -2) (false)
+    currentSum = 0
+
+i=1; 1<9 (true)
+    0 + 1 = 1
+    (1 > -2) (true)
+    maxSum = 1
+
+i=2; 2<9 (true)
+    1 + (-3) = -2
+    (-2 > 1) (false)
+    currentSum = 0
+
+i=3; 3<9 (true)
+    0 + 4 = 4
+    (4 > 1) (true)
+    maxSum = 4
+
+i=4; 4<9 (true)
+    4 + (-1) = 3
+    (3 > 4) (false)
+
+i=5; 5<9 (true)
+    3 + 2 = 5
+    (5 > 4) (true)
+    maxSum = 5
+
+i=6; 6<9 (true)
+    5 + 1 = 6
+    (6 > 5) (true)
+    maxSum = 6
+
+i=7; 7<9 (true)
+    6 + (-5) = 1
+    (1 > 6) (false)
+
+i=8; 8<9 (true)
+    1 + 4 = 5
+    (5 > 6) (false)
+
+So the final subarray is [4,-1,2,1]
+________________________________________________________________
+
 Practice Problem
 
 Find the second largest number in the array
@@ -245,6 +338,7 @@ Find the second largest number in the array
     	}
 	}
 
+EXPLANATION:
 n is the number of input
 arr[] is array to get elements
 declaring the first element of the array as largest and second
