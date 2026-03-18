@@ -30,16 +30,16 @@ public class Main{
 // str = "madam"
 // Iteration 1:
 
-//     left = 0(m)
-//     right = 4(m)
+//     left=0(m)
+//     right=4(m)
 //     left<right
 //       0<4
 //       m==m
 
 // Iteration 2:
 
-//     left = 1(a)
-//     right = 3(a)
+//     left=1(a)
+//     right=3(a)
 //     left<right
 //       1<3
 //       a==a
