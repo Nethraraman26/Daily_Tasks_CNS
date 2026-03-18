@@ -1,0 +1,163 @@
+QUANTUMNIQUE PLACEMENT ENGINE
+DAY 3 – FULL TRAINING PLAN
+===========================================
+
+BLOCK 1 – APTITUDE (Ratio & Proportion)
+
+Question 1
+If the ratio of A:B is 3:5 and B:C is 2:3, find A:C.
+
+	A:B = 3:5
+	B:C = 2:3
+	B is common B=5, B=2
+	Lcm of 5 and 2 = 10
+	A:B = 3*2:5*2 = 6:10
+	B:C = 2*5:3*5 = 10:15
+	B=10
+	A:C=6:15
+	   =2:5
+	Finally A:C is found as 2:5
+
+Question 2
+Divide ₹1000 in the ratio 2:3:5.
+
+	total=2+3+5
+	     =10
+	one part=1000/10
+		=100
+	First =2*100
+	      =200
+	Second=3*100
+	      =300
+	Third =5*100
+	      =500
+	(to check we can all the values 200+300+500 = 1000)
+	2:3:5 = 200:300:500
+
+Question 3
+If 4 pens cost ₹40, what is the cost of 10 pens?
+	
+	4 pens =40
+	1 pen  =40/4
+	       =10
+	10 pens=10*10
+	       =100
+
+Question 4
+The ratio of boys to girls in a class is 3:2. If total students = 50, find number of girls.
+
+	B:G = 3:2
+	total=50
+	total parts=3+2
+		   =5
+	one part  =50/5
+		  =10
+	girls	  =2*10
+		  =20
+	B:G =30:20
+	Number of girls is 20.
+
+Question 5
+If A:B = 4:7 and B = 21, find A.
+
+	A:B = 4:7
+	B = 21
+	A/B =4:7
+	A/21=4/7
+	A = 4/7*21
+	A = 4*3
+	A = 12
+	Value of A is 12.
+
+___________________________________________________________________________________________________________________
+
+BLOCK 2 – VERBAL ABILITY
+
+Reading Passage
+
+Data structures are essential for efficient problem solving. Choosing the
+right data structure can significantly improve performance.
+
+Questions
+
+1. Why are data structures important?
+	Data structure is important for efficient problem solving.
+
+2. What happens if we choose the wrong data structure?
+	If we choose the wrong data structure it reduces the performance.
+
+3. What does performance mean in programming?
+	Performance means how fast and how well a program runs.
+
+_____________________________________________________________________________________________________________________
+
+Grammar Correction
+
+1. He go to college daily.
+	(he/she/it - we need to add s or es with the verb)
+	He goes to college daily.
+
+2. She don’t likes coding.
+	(he/she/it - doesn't needs to be used, after doesn't we should not use s to verb we need to use the base verb)
+	She doesn't like coding.
+
+3. We was solving problems.
+	(We is plural so need to use were)
+	We were solving problems.
+
+________________________________________________________________________________________________________________________
+
+BLOCK 3 – COMMUNICATION PRACTICE
+
+Speak for 2–3 minutes on:
+
+Your Strengths and Weaknesses
+
+Include:
+- 2 strengths
+- 1 weakness
+- How you are improving
+
+	Good morning,
+	Today I would like to talk about my strengths and weakness.One of my strengths is problem analyzing and logical thinking. 
+	I like to break problems into small parts and find simple solutions. This helps me in coding.
+	Another strength is adaptability and learning new things.I also like sharing what I learn with my friends which helps me to revice the topics learned.
+	My weakness is that sometimes I find it difficult to convert my ideas into code. Even if I understand the logic, it takes time to write the program.
+	But I am improving by practicing coding daily and writing steps before coding. This helps me do better.
+	Thank you.
+	
+__________________________________________________________________________________________________________________________
+
+BLOCK 4 – PROBLEM SOLVING
+
+Check if a number is palindrome.
+
+Example
+
+Input: 121
+Output: True
+
+Input: 123
+Output: False
+
+	import java.util.Scanner;
+	public class Main{
+    	public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int temp=n;
+        int num=0;
+        while(n!=0){
+        num=num*10+n%10;
+        n/=10;
+        }
+        if(temp==num){
+        System.out.println("Palindrome");
+        }
+        else{
+        System.out.println("Not a palindrome");
+        }
+    	}
+	}
+
+___________________________________________________________________________________________________________________________
