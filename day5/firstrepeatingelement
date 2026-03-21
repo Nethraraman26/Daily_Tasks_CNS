@@ -1,0 +1,62 @@
+import java.util.HashSet;
+public class Main {
+    public static void main(String[] args) {
+        int n=sc.nextInt();
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++)
+        {
+        arr[i]=sc.nextInt();
+        }
+        HashSet<Integer> set = new HashSet<>();
+        for(int i = 0; i < arr.length; i++)
+        {
+        if(set.contains(arr[i])) {
+        System.out.println(arr[i]);
+        break;
+       }
+       set.add(arr[i]);
+        }
+        }
+        }
+
+
+Array = [1,2,3,4,2,5,3]
+Initial:
+set = {}
+
+1:
+i = 0 , arr[0] = 1
+  set.contains(1) 
+  false
+  add 1 
+  set = {1}
+
+2:
+  i = 1,  arr[1] = 2
+  set.contains(2) 
+  false
+  add 2 
+  set = {1,2}
+
+3:
+  i = 2 , arr[2] = 3
+  set.contains(3) 
+  false
+  add 3 
+  set = {1,2,3}
+
+4:
+  i = 3 , arr[3] = 4
+  set.contains(4) 
+  false
+  add 4 
+  set = {1,2,3,4}
+
+5:
+  i = 4 , arr[4] = 2
+  set.contains(2) 
+  true 
+
+We need first repeating element so we stops the loop and prints the element
+Output = 2
+Loop breaks here
