@@ -1,0 +1,122 @@
+
+QUANTUMNIQUE PLACEMENT ENGINE
+DAY 5 – FULL TRAINING PLAN (ADVANCED LEVEL)
+===========================================
+
+BLOCK 1 – APTITUDE (Speed, Time & Distance)
+
+Question 1
+A train travels 60 km in 1 hour. What is its speed in m/s?
+
+	Speed = 60 km/h
+	Convert km/h to m/s
+	= 60 × 5/18
+	= 300/18
+	= 16.67 m/s
+
+
+Question 2
+A car travels at 40 km/h for 2 hours and 60 km/h for next 2 hours.
+Find average speed.
+
+	Distance1 = 40 × 2 = 80 km
+	Distance2 = 60 × 2 = 120 km
+	Total distance = 80 + 120 = 200 km
+	Total time = 2 + 2 = 4 hours
+	Average speed = Total distance / Total time
+              = 200 / 4
+              = 50 km/h
+
+
+Question 3
+Two trains moving in opposite directions at 50 km/h and 70 km/h.
+Find relative speed.
+
+	Relative speed = 50 + 70
+               = 120 km/h
+
+
+Question 4
+A person walks at 5 km/h and runs at 10 km/h.
+Find time taken to cover 15 km if half distance is walked and half is run.
+
+	Half distance = 15/2 = 7.5 km
+
+	Walking  = 7.5 / 5 
+	         = 1.5 hours
+	Running time = 7.5 / 10 
+		     = 0.75 hours
+	Total time = 1.5 + 0.75
+           	   = 2.25 hours
+	(2 hours 15 minutes)
+
+Question 5
+If a train crosses a pole in 10 seconds and its length is 100 meters,
+find its speed.
+
+	Speed = Distance / Time
+      = 100 / 10
+      = 10 m/s
+	Convert to m/s to km/hr
+	= 10 × 18/5
+	= 36 km/h
+
+________________________________________________________________________________________________________________
+BLOCK 2 – VERBAL ABILITY (Advanced)
+
+Reading Passage
+
+Algorithms play a crucial role in optimizing system performance.
+Efficient algorithms reduce execution time and resource consumption.
+
+Questions
+
+1. Why are algorithms important?
+	Algorithms are important because they improve system performance and reduce execution time.
+
+2. What happens if inefficient algorithms are used?
+	Inefficient algorithms increase execution time and use more resources.
+3. What is optimization in computing?
+	Optimization means improving performance by reducing time and resource usage.
+
+___________________________________________________________________________________________________________________
+
+Grammar Correction
+
+1. He have been working here since 2 years.
+	(He is singular we need to use has)
+	He has been working here for 2 years.
+
+2. She did not wrote the code.
+	(After did we need to use V1)
+	She did not write the code.
+
+3. They is preparing for interviews.
+	(They is plural we need to use are)
+	They are preparing for interviews.
+
+_____________________________________________________________________________________________________________
+BLOCK 3 – COMMUNICATION PRACTICE
+
+Speak for 3 minutes on:
+
+Explain a recent technical topic you learned
+
+Include:
+- Concept explanation
+- Example
+- Real-world use
+
+Good morning
+
+Today I will explain HTML and CSS, they are used to build and design websites.
+HTML is used to create the structure of a webpage like headings, text, and images.
+CSS is used to style the webpage by adding colors, fonts, and layouts.
+A real-time example is a website where HTML creates the content and CSS makes it attractive.
+It is like a skeleton and design of a webpage working together.
+HTML and CSS are widely used to create modern and user-friendly websites.
+
+Thank you!
+
+_______________________________________________________________________________________________________________
+

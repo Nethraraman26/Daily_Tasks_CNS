@@ -1,0 +1,135 @@
+QUANTUMNIQUE PLACEMENT ENGINE
+DAY 4 – FULL TRAINING PLAN (TOUGHER LEVEL)
+===========================================
+
+BLOCK 1 – APTITUDE (Time & Work – Moderate)
+
+Question 1
+A can complete a work in 10 days and B in 15 days. How long will they take together?
+
+	A=1/10
+	B=1/15
+	A+b=1/10+1/15
+	   =3+2/30
+	   =5/30
+	   =1/6
+	It takes 6 days to complete the work.
+
+Question 2
+A, B and C can complete a work in 6, 8 and 12 days respectively.
+How many days will they take working together?
+	
+	A=1/6
+	B=1/8
+	C=1/12
+	A+B+C=1/6+1/8+1/12
+	     =4+3+2/24
+	     =9/24
+	     =3/8
+	Time =1/3/8
+	     =8/3
+	     =2.66...
+	It takes 2 2/3 days(2 days and 16 hours)
+
+Question 3
+A alone can do a work in 12 days. After 4 days, B joins and completes remaining work in 4 days.
+Find time taken by B alone.
+
+	A=1/12
+	after 4 days: 1/12*4
+		    :1/3
+	remaining work: 1-1/3=2/3
+	A+b in 4 days=2/3
+	4=2/3
+	 =2/12
+	 =1/6
+	A+B=1/6
+	1/12+B=1/6
+	B=1/6-1/12
+	B=2-1/12
+	B=1/12
+	 =12 
+	B alone do work in 12 dyas
+
+Question 4
+If 5 workers can complete a work in 8 days, how many workers are required to complete it in 4 days?
+
+	W1*D1=W2*D2
+	5 * 8=x *4
+	40 = 4x
+	x=40/4
+	 =10
+	10 workers need to complete the work in 4 days
+
+Question 5
+A pipe fills a tank in 6 hours and another empties it in 8 hours.
+How long to fill the tank?
+
+	A=1/6
+	B=1/8
+	A-B=1/6-1/8
+	   =4-3/24
+	   =1/24
+	   =24
+	It takes 24 hours to fill the tank.
+
+_____________________________________________________________________________________________________________
+
+BLOCK 2 – VERBAL ABILITY (Advanced)
+
+Reading Passage
+
+Efficient algorithms and optimized systems are critical in large-scale applications.
+Companies like Amazon and Google rely heavily on scalable architectures.
+
+Questions
+
+1. Why are optimized systems important?
+	Optimized systems are important because they make applications efficient.
+
+2. What does scalability mean in real-world applications?
+	Scalability means a system can handle more users and data without any issues.
+
+3. Name companies that depend on scalable systems.
+	Companies like Amazon and Google depend on scalable systems.
+
+________________________________________________________________________________________________________________
+
+
+Grammar Correction
+
+1. He didn’t knew the answer.
+	(did is past so we need to use did+v1)
+	He didn't know the answer.
+
+2. She is more smarter than him.
+	(smarter is a comparative word more is also a comparative word so no need to double comparative)
+	She is smarter than him.
+
+3. They has completed the task.
+	(they is plural so we need to use have instead of has)
+	They have complete the task.
+
+__________________________________________________________________________________________________________________
+
+BLOCK 3 – COMMUNICATION PRACTICE
+
+Speak for 3 minutes on:
+Explain a technical concept (e.g., Arrays / DBMS / OS)
+Include:
+- Definition
+- Real-world example
+- Use case
+
+Good morning
+
+Today I will explain Array,it is a data structure used to store multiple values of the same type in a single variable.
+It helps reduce the need for creating many variables and makes the program simple.
+A real-time example is storing marks of students in an array,  each value of student can be accessed using an index.
+It is like a row of boxes where each box stores one value and has a position.
+Arrays are used to manage large amounts of data efficiently and access values quickly in programs.
+
+Thank you!
+
+__________________________________________________________________________________________________________________
+
