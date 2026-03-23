@@ -1,0 +1,110 @@
+QUANTUMNIQUE PLACEMENT ENGINE
+DAY 7 – FULL TRAINING PLAN (INTERVIEW FOCUSED)
+===========================================
+
+BLOCK 1 – APTITUDE (Probability)
+
+Question 1
+What is the probability of getting a head when tossing a coin?
+
+	n=7,r=3  
+	nCr=7C3  
+     	=7!/(3!×4!)  
+     	=(7×6×5)/(3×2×1)  
+     	=210/6  
+     	=35  
+
+Question 2
+What is the probability of getting a number greater than 4 when rolling a dice?
+
+	First =4 choices  
+	Second=3 choices  
+	Total=4×3  
+             =12  
+
+Question 3
+A bag contains 3 red balls and 2 blue balls.
+Find probability of picking a red ball.
+
+	n=6,r=2  
+	nPr=6P2  
+     	=6×5  
+     	=30  
+
+Question 4
+If two coins are tossed, what is probability of getting two heads?
+
+	Total letters=4  
+	Arrangements =4!  
+              	     =4×3×2×1  
+              	     =24  
+
+Question 5
+Probability of selecting a vowel from the word ENGINEER.
+
+	n=8,r=4  
+	nCr=8C4  
+     	=8!/(4!×4!)  
+     	=(8×7×6×5)/(4×3×2×1)  
+     	=1680/24  
+     	=70 
+
+________________________________________________________________________________________________________________
+
+===========================================
+BLOCK 2 – VERBAL ABILITY (Advanced)
+
+Reading Passage
+
+Operating systems manage hardware resources and provide services for computer programs.
+Efficient OS design ensures better performance, memory management, and process scheduling.
+
+Questions
+
+1. What is the main role of an operating system?
+	The main role of an operating system is to manage hardware resources and provide services for computer programs.
+
+2. Why is memory management important?
+	Memory management ensures efficient use of memory and improves system performance.
+
+3. What is process scheduling?
+	Process scheduling is the method that decides which process runs at a given time.
+
+_________________________________________________________________________________________________________________
+
+Grammar Correction
+
+1. He don’t know operating systems.
+	(He is singular, so we use "doesn't")
+	He doesn't know operating systems.
+
+2. She were learning data structures.
+	(She is singular, so we use "was")
+	She was learning data structures.
+
+3. They has solved the problem.
+	(They is plural, so we use "have")
+	They have solved the problem.
+
+___________________________________________________________________________________________________________________
+
+BLOCK 3 – COMMUNICATION PRACTICE
+
+Speak for 3 minutes on:
+
+Explain how the Internet works
+
+Include:
+- What happens when you type a URL
+- DNS
+- Server
+- Response
+
+The Internet is a network that connects computers worldwide.
+When you type a URL, your computer sends a request to find that website.
+DNS (Domain Name System) changes the website name into an IP address.
+The request goes to a server where the website is stored.
+The server sends back the data (response).
+Your browser shows the webpage on the screen.
+
+____________________________________________________________________________________________________________________
