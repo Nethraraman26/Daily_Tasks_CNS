@@ -1,0 +1,139 @@
+QUANTUMNIQUE PLACEMENT ENGINE
+DAY 8 – FULL TRAINING PLAN (INTERVIEW FOCUSED)
+===========================================
+
+BLOCK 1 – APTITUDE (Mixtures & Averages)
+
+Question 1
+The average of 5 numbers is 20. Find the total sum.
+
+	n=5  
+	Average=20  
+	Sum=Average×n  
+    	    =20×5  
+    	    =100  
+
+Question 2
+The average of 10 numbers is 15. If one number is removed, the average becomes 14. Find the removed number.
+
+	n₁=10  
+	Average1=15  
+	Total1=10×15  
+               =150  
+	n₂=9  
+	Average2=14  
+	Total2=9×14  
+              =126  
+Removed number=Total₁−Total₂  
+              =150−126  
+              =24  
+
+Question 3
+A container has milk and water in ratio 3:2. If 10 liters of water is added, ratio becomes 3:4. Find initial quantity.
+
+	Milk=3x  
+	Water=2x  
+	After adding 10 liters water:  
+	New water=2x+10  
+	New ratio=3:4  
+	3x/(2x+10)=3/4  
+	4×3x=3×(2x+10)  
+	12x=6x+30  
+	12x−6x=30  
+	6x=30  
+	x=5  
+Total initial quantity =3x+2x  
+                       = 5x  
+                       = 5×5  
+                       = 25 liters  
+
+Question 4
+Find average of first 20 natural numbers.
+
+	n = 20  
+	Average =(n+1)/2  
+        	=(20+1)/2  
+        	=21/2  
+        	=10.5  
+
+Question 5
+The average age of 5 students is 18. A new student joins and average becomes 19. Find age of new student.
+
+	n₁=5  
+	Average1=18  
+	Total1=5×18  
+        =90  
+New student joins,n₂ = 6  
+	Average2=19  
+	Total2=6×19  
+        =114  
+New student age =Total2−Total1  
+                 =114−90  
+                 =24  
+
+_________________________________________________________________________________________________________________________________
+
+===========================================
+BLOCK 2 – VERBAL ABILITY
+
+Reading Passage
+
+Data structures help organize and store data efficiently so that operations
+like searching, inserting, and deleting can be performed quickly.
+Choosing the correct data structure improves performance significantly.
+
+Questions
+
+1. Why are data structures important?
+	Data structures are important because they help organize and store data efficiently,
+so operations like searching, inserting, and deleting can be performed quickly.
+
+2. Name some operations performed on data.
+	The operations performed on data are:
+Searching, inserting, and deleting.
+
+3. How does choosing the right data structure help performance?
+	Choosing the correct data structure improves performance significantly
+by making operations faster and more efficient.
+
+_____________________________________________________________________________________________________________________________
+
+Grammar Correction
+
+1. He don’t understand data structures.
+	(He is singular so we need to use "doesn't")  
+	He doesn't understand data structures.
+
+2. She have completed the assignment.
+	(She is singular so we need to use "has")  
+	She has completed the assignment.
+
+3. They was working on the project.
+	(They is plural so we need to use "were")  
+	They were working on the project.
+
+_______________________________________________________________________________________________________________________________
+
+BLOCK 3 – COMMUNICATION PRACTICE
+
+Speak for 3 minutes on:
+
+Explain your favorite programming language
+
+Include:
+- Why you like it
+- Where it is used
+- Features
+- Example project
+
+My favorite programming language is Java.
+I like Java because it is simple, powerful, and easy to understand. It follows object-oriented programming, which helps in writing clean and reusable code.
+Java also has a large community, so it is easy to find help and resources when learning.
+Java is used in many areas. It is widely used in web development, Android app development, and enterprise applications. 
+Many big companies use Java to build large-scale systems because it is stable and secure.
+One of the main features of Java is platform independence, which means "Write Once, Run Anywhere". 
+This allows Java programs to run on any system without changing the code. 
+It also has strong memory management, high security, and multithreading, which helps in running multiple tasks at the same time.
+
+________________________________________________________________________________________________________________________________
+
