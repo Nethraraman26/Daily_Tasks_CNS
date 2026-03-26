@@ -1,0 +1,59 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(); 
+        int[] arr = new int[n];
+        for(int i = 0; i < n; i++) {
+        arr[i] = sc.nextInt();
+        }
+        int max = arr[0];
+        int second = arr[0];
+        for(int i = 1; i < n; i++) {
+        if(arr[i] > max) {
+        second = max;
+        max = arr[i];
+        }
+        else if(arr[i] > second && arr[i] != max) {
+        second = arr[i];
+        }
+        }
+        System.out.println(second);
+        }
+        }
+
+
+Input:
+5
+10 5 20 8 15
+max = 10
+second = 10
+1:
+  i = 1 , arr[1] = 5
+  5 < max (10)
+  5 < second (10) 
+  no change
+  max = 10  
+  second = 10  
+
+2:
+  i = 2 , arr[2] = 20
+  20 > max (10)
+  second = 10  
+  max = 20  
+
+3:
+  i = 3 , arr[3] = 8
+  8 < max (20)
+  8 < second (10) 
+  no change
+  max = 20  
+  second = 10
+
+4:
+  i = 4 , arr[4] = 15
+  15 < max (20)
+  15 > second (10)
+  second = 15  
+
+Second largest = 15
